@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginbackgroud3"
+    android:stretchColumns="1">
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/login_message"
+        android:textSize="30dp"/>
+
+   <Button
+       android:id="@+id/login_button"
+       android:layout_marginTop="150dp"
+       android:layout_width="190dp"
+       android:layout_height="65dp"
+       android:background="#C7C7C7"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="10dp"
+       android:text="登录"
+       android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/tourst_button"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:background="#FFEFD5"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/login_button"
+        android:text="用户体验"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
